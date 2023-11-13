@@ -9,8 +9,8 @@ dependencies:
     specifier: ^0.29.1
     version: 0.29.1(solid-js@1.8.5)
   '@solidjs/router':
-    specifier: ^0.8.3
-    version: 0.8.3(solid-js@1.8.5)
+    specifier: ^0.9.1
+    version: 0.9.1(solid-js@1.8.5)
   classix:
     specifier: ^2.1.35
     version: 2.1.35
@@ -18,33 +18,33 @@ dependencies:
     specifier: ^1.11.10
     version: 1.11.10
   rosetty-solid:
-    specifier: ^1.0.30
-    version: 1.0.30(@babel/core@7.23.2)
+    specifier: ^1.0.32
+    version: 1.0.32(@babel/core@7.23.2)
   solid-js:
     specifier: ^1.8.5
     version: 1.8.5
   solid-start:
-    specifier: ^0.3.9
-    version: 0.3.9(@solidjs/meta@0.29.1)(@solidjs/router@0.8.3)(solid-js@1.8.5)(solid-start-node@0.3.9)(vite@4.5.0)
+    specifier: ^0.3.10
+    version: 0.3.10(@solidjs/meta@0.29.1)(@solidjs/router@0.9.1)(solid-js@1.8.5)(solid-start-node@0.3.10)(vite@4.5.0)
 
 devDependencies:
   autoprefixer:
-    specifier: ^10.4.15
+    specifier: ^10.4.16
     version: 10.4.16(postcss@8.4.31)
   postcss:
-    specifier: ^8.4.28
+    specifier: ^8.4.31
     version: 8.4.31
   solid-start-node:
-    specifier: ^0.3.9
-    version: 0.3.9(solid-start@0.3.9)(vite@4.5.0)
+    specifier: ^0.3.10
+    version: 0.3.10(solid-start@0.3.10)(vite@4.5.0)
   tailwindcss:
-    specifier: ^3.3.3
+    specifier: ^3.3.5
     version: 3.3.5
   typescript:
-    specifier: ^4.9.5
-    version: 4.9.5
+    specifier: ^5.2.2
+    version: 5.2.2
   vite:
-    specifier: ^4.4.9
+    specifier: ^4.5.0
     version: 4.5.0
 
 packages:
@@ -1655,10 +1655,10 @@ packages:
     dependencies:
       solid-js: 1.8.5
 
-  /@solidjs/router@0.8.3(solid-js@1.8.5):
-    resolution: {integrity: sha512-oJuqQo10rVTiQYhe1qXIG1NyZIZ2YOwHnlLc8Xx+g/iJhFCJo1saLOIrD/Dkh2fpIaIny5ZMkz1cYYqoTYGJbg==}
+  /@solidjs/router@0.9.1(solid-js@1.8.5):
+    resolution: {integrity: sha512-kRY75piOQsyoH75E/RP6lr7uVGFCjeeCCCJx7Z2D1Vc6+I1yFQjLCvE+6agXGwqDoWi6vbETP1g7gmp/L1mNLg==}
     peerDependencies:
-      solid-js: ^1.5.3
+      solid-js: ^1.8.4
     dependencies:
       solid-js: 1.8.5
 
@@ -2913,8 +2913,8 @@ packages:
       templite: 1.2.0
     dev: false
 
-  /rosetty-solid@1.0.30(@babel/core@7.23.2):
-    resolution: {integrity: sha512-/w5yngN4CujafX9LTLrNmGhDgM0gNXvWzGx2JS5pf8Q1EmVUOkht110sPBOxX4Hq48SaCU1vKqUzza+9gvoIyw==}
+  /rosetty-solid@1.0.32(@babel/core@7.23.2):
+    resolution: {integrity: sha512-44yS9NSQ8TND2SkiYAiU9WFwp16gWAxP6xGNABSn5jXado4VN39bJ+qVWIs01eKb9vR2IbINIOWiE5cYIgfFvQ==}
     engines: {node: '>=10'}
     dependencies:
       babel-preset-solid: 1.8.4(@babel/core@7.23.2)
@@ -3009,8 +3009,8 @@ packages:
       '@babel/types': 7.23.0
       solid-js: 1.8.5
 
-  /solid-start-node@0.3.9(solid-start@0.3.9)(vite@4.5.0):
-    resolution: {integrity: sha512-BWE4g2CqTzq3L2e4TX7kfFC++YiOUqbNFuReLW0gji091qb2sVKqaCBLInfsoLDNAdNdU2Fj659ZZn33b2JqUQ==}
+  /solid-start-node@0.3.10(solid-start@0.3.10)(vite@4.5.0):
+    resolution: {integrity: sha512-MuQXw+hLaGI4YlcVFKJxLvDG6/6/DhX5vifBICGmc0kGvUtOYMFXkSVhk6J83hIOK+ZVEwVu0/Mz18Jc7kRVjg==}
     peerDependencies:
       solid-start: '*'
       vite: '*'
@@ -3022,14 +3022,14 @@ packages:
       polka: 1.0.0-next.22
       rollup: 3.29.4
       sirv: 2.0.3
-      solid-start: 0.3.9(@solidjs/meta@0.29.1)(@solidjs/router@0.8.3)(solid-js@1.8.5)(solid-start-node@0.3.9)(vite@4.5.0)
+      solid-start: 0.3.10(@solidjs/meta@0.29.1)(@solidjs/router@0.9.1)(solid-js@1.8.5)(solid-start-node@0.3.10)(vite@4.5.0)
       terser: 5.24.0
       vite: 4.5.0
     transitivePeerDependencies:
       - supports-color
 
-  /solid-start@0.3.9(@solidjs/meta@0.29.1)(@solidjs/router@0.8.3)(solid-js@1.8.5)(solid-start-node@0.3.9)(vite@4.5.0):
-    resolution: {integrity: sha512-hh3JaoUW6prfnwuAaB/rF4zkM/8Z+vGLO+8iUosiqfBmYWdkCPCGRsKrc1UhBK9H4Z3b6wirqFfP/5aeq0cLGw==}
+  /solid-start@0.3.10(@solidjs/meta@0.29.1)(@solidjs/router@0.9.1)(solid-js@1.8.5)(solid-start-node@0.3.10)(vite@4.5.0):
+    resolution: {integrity: sha512-4z+BybZMOyw6Px6FgPvjzW6/UOLCyDNxoKRg19kGGWmcgyWf8YZv+/eIhXdt+09H/LQapZr4ZRY2iFpe7+7PbA==}
     hasBin: true
     peerDependencies:
       '@solidjs/meta': ^0.29.1
@@ -3069,7 +3069,7 @@ packages:
       '@babel/preset-typescript': 7.23.2(@babel/core@7.23.2)
       '@babel/template': 7.22.15
       '@solidjs/meta': 0.29.1(solid-js@1.8.5)
-      '@solidjs/router': 0.8.3(solid-js@1.8.5)
+      '@solidjs/router': 0.9.1(solid-js@1.8.5)
       '@types/cookie': 0.5.3
       '@types/debug': 4.1.10
       chokidar: 3.5.3
@@ -3093,7 +3093,7 @@ packages:
       set-cookie-parser: 2.6.0
       sirv: 2.0.3
       solid-js: 1.8.5
-      solid-start-node: 0.3.9(solid-start@0.3.9)(vite@4.5.0)
+      solid-start-node: 0.3.10(solid-start@0.3.10)(vite@4.5.0)
       terser: 5.24.0
       undici: 5.27.2
       vite: 4.5.0
@@ -3261,9 +3261,9 @@ packages:
   /tslib@2.6.2:
     resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
 
-  /typescript@4.9.5:
-    resolution: {integrity: sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==}
-    engines: {node: '>=4.2.0'}
+  /typescript@5.2.2:
+    resolution: {integrity: sha512-mI4WrpHsbCIcwT9cF4FZvr80QUeKvsUsUvKDoR+X/7XHQH98xYD8YHZg7ANtz2GtZt/CBq2QJ0thkGJMHfqc1w==}
+    engines: {node: '>=14.17'}
     hasBin: true
     dev: true
 
